@@ -67,6 +67,7 @@ public class Exercicio15 {
 		votosTotais = votosSpiderman + votosSuperman + votosWonderWoman + votosIronMan 
 						+ votosCaptainAmerica + votosNulos + votosBrancos; 
 		
+		// Exibe os votos dos candidatos
 		System.out.println("Resultados:");
 		System.out.println("Spiderman - " + votosSpiderman);
 		System.out.println("Superman - " + votosSuperman);
@@ -74,8 +75,36 @@ public class Exercicio15 {
 		System.out.println("Iron Man - " + votosIronMan);
 		System.out.println("Captain America - " + votosCaptainAmerica);
 		
+		// Calculando e exibindo porcentagem de votos nulos/brancos
+		System.out.println(String.format("\nVotos nulos - %.2f", votosNulos/votosTotais * 100) + "%");
+		System.out.println(String.format("Votos brancos - %.2f", votosBrancos/votosTotais * 100) + "%");
 		
-		
+		// Descobrindo e exibindo o vencedor
+		System.out.println("\nO vencedor é:...");
+		if (votosSpiderman > votosSuperman && votosSpiderman > votosWonderWoman && 
+				votosSpiderman > votosIronMan && votosSpiderman > votosCaptainAmerica) {
+			// Spiderman maior que todos, logo ganhou
+			System.out.println("Spiderman, com " + votosSpiderman + " votos!");
+		} else if (votosSuperman > votosSpiderman && votosSuperman > votosWonderWoman &&
+					votosSuperman > votosIronMan && votosSuperman > votosCaptainAmerica) {
+			// Superman maior que todos, logo ganhou
+			System.out.println("Superman, com " + votosSuperman + " votos!");
+		} else if (votosWonderWoman > votosSpiderman && votosWonderWoman > votosSuperman &&
+					votosWonderWoman > votosIronMan && votosWonderWoman > votosCaptainAmerica) {
+			// Wonder Woman maior que todos, logo ganhou
+			System.out.println("Wonder Woman, com " + votosWonderWoman + " votos!");
+		} else if (votosIronMan > votosSpiderman && votosIronMan > votosSuperman &&
+				votosIronMan > votosWonderWoman && votosIronMan > votosCaptainAmerica) {
+			// Iron Man maior que todos, logo ganhou
+			System.out.println("Iron Man, com " + votosIronMan + " votos!");
+		} else if (votosCaptainAmerica > votosSpiderman && votosCaptainAmerica > votosSuperman &&
+				votosCaptainAmerica > votosWonderWoman && votosCaptainAmerica > votosIronMan) {
+			// Captain America maior que todos, logo ganhou
+			System.out.println("Captain America, com " + votosCaptainAmerica + " votos!");
+		} else {
+			// Ninguém tem votos maiores que todos os oponentes, logo houve empate
+			System.out.println("Houve empate, logo não há um vencedor");
+		}
 	}
 
 }
