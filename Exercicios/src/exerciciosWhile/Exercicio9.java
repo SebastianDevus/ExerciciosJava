@@ -1,4 +1,4 @@
-package exerciciosWhile;
+package exercicioswhile;
 import java.util.Locale;
 
 public class Exercicio9 {

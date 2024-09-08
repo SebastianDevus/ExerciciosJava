@@ -1,4 +1,4 @@
-package exerciciosWhile;
+package exercicioswhile;
 
 import java.util.Locale;
 import java.util.Scanner;
