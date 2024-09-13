@@ -1,0 +1,34 @@
+Crie um programa que:
+Inicialize um ArrayList de String.
+Adicione 5 nomes ao ArrayList.
+Imprima todos os nomes.
+Remova o terceiro nome.
+Substitua o segundo nome por um novo nome.
+Imprima o nome na posição 1.
+Exiba o tamanho do ArrayList.
+
+Crie um programa que:
+Inicialize um ArrayList de Integer com os números 5, 2, 9, 1 e 3.
+Imprima o ArrayList antes de ordenar.
+Ordene o ArrayList em ordem crescente usando Collections.sort.
+Imprima o ArrayList após a ordenação.
+Inverta a ordem dos elementos usando Collections.reverse.
+Imprima o ArrayList após a inversão.
+
+Crie um programa que:
+Inicialize um ArrayList de String.
+Use um Scanner para ler 5 nomes fornecidos pelo usuário e adicione-os ao ArrayList.
+Imprima todos os nomes no ArrayList.
+Pergunte ao usuário qual nome ele gostaria de remover e remova-o.
+Imprima o ArrayList após a remoção.
+
+Crie um programa que:
+Inicialize um ArrayList de Double com os valores 1.1, 2.2, 3.3, 4.4 e 5.5.
+Use o método set para substituir o valor na posição 2 por um novo valor (por exemplo, 99.9).
+Imprima o ArrayList antes e depois da substituição.
+
+Crie um programa que:
+Inicialize um ArrayList de Character com os caracteres 'a', 'b', 'c', 'd' e 'e'.
+Imprima o caractere na posição 3.
+Modifique o caractere na posição 1 para 'z'.
+Imprima o ArrayList após a modificação.
