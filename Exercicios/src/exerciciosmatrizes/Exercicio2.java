@@ -4,6 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio2 {
+    // 2. Agendamento de Reuniões 
+    // Descrição: Crie uma matriz 5x7 para representar uma agenda semanal de reuniões (5 dias da semana e 7 horários por 
+    // dia). Preencha a matriz com descrições de reuniões e imprima a agenda completa.
     
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução

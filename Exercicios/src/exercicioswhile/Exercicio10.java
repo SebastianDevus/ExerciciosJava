@@ -4,10 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio10 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que receba dois números inteiros e gere os números inteiros que 
+	// estão no intervalo compreendido por eles.
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

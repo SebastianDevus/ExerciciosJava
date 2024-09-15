@@ -4,10 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio5 {
+	// Altere o programa anterior permitindo ao usuário informar as populações e as taxas 
+	// de crescimento iniciais. Valide a entrada e permita repetir a operação. 
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

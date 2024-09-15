@@ -4,10 +4,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio11 {
-
-	/**
-	 * @param args
-	 */
+	// Altere o programa anterior para mostrar no final a soma dos números. 
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

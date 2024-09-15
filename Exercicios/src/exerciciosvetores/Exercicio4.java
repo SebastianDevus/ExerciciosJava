@@ -3,6 +3,9 @@ package exerciciosvetores;
 import java.util.Locale;
 
 public class Exercicio4 {
+    // 4. Sequência de Fibonacci 
+    // Descrição:  Crie  um  vetor  para  armazenar  os  primeiros  10  números  da  sequência  de  Fibonacci  e  preencha-o  com  os 
+    // valores correspondentes. Imprima a sequência completa.
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);

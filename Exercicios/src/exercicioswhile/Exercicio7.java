@@ -4,10 +4,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio7 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que leia 5 números e informe o maior número. 
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

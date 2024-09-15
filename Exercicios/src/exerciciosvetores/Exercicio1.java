@@ -4,6 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio1 {
+    // 1. Controle de Notas de Alunos 
+    // Descrição:  Você  é  responsável  por  registrar  as  notas  de  5  alunos  em  um  exame.  Crie  um  vetor  de  5  inteiros  para 
+    // armazenar as notas e preencha-o com valores fornecidos pelo usuário. Em seguida, calcule e imprima a média das notas. 
 
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução

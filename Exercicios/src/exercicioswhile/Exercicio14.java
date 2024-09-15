@@ -4,10 +4,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio14 {
-
-	/**
-	 * @param args
-	 */
+	// Faça  um  programa  que  receba  uma  senha  formada  de  quatro  números  inteiros, 
+	// verifique se a senha está correta e, caso não esteja, solicite novamente a senha. Se a 
+	// senha entrada for a correta, deverá ser apresentada a mensagem “Senha Correta”, caso 
+	// contrário, “Senha Incorreta”. 
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

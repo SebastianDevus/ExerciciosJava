@@ -4,10 +4,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio2 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha 
+	// igual  ao nome do usuário, mostrando uma mensagem de  erro e voltando  a pedir as 
+	// informações. 
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

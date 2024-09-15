@@ -4,6 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio3 {
+    // 3. Tabela de Notas de Alunos 
+    // Descrição: Você precisa criar uma matriz 3x4 para armazenar as notas de 3 alunos em 4 disciplinas. Preencha a matriz 
+    // com notas fornecidas pelo usuário e calcule a média das notas de cada aluno e de cada disciplina. Imprima os resultados. 
 
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução

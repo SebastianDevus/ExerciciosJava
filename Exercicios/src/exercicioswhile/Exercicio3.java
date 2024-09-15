@@ -4,10 +4,13 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio3 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que leia e valide as seguintes informações: 
+	// a. Nome; 
+	// b. Idade: entre 0 e 150; 
+	// c. Salário: maior que zero; 
+	// d. Sexo: 'f' ou 'm'; 
+	// e. Estado Civil: 's', 'c', 'v', 'd';
+	 
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

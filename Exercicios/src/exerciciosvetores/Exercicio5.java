@@ -4,6 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio5 {
+    // 5. Avaliação de Produtos 
+    // Descrição: Você gerencia um site  de avaliações  de  produtos  e deseja armazenar as avaliações de  5 produtos  em um 
+    // vetor de inteiros. Preencha o vetor com avaliações fornecidas pelo usuário e calcule a média das avaliações.
 
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução

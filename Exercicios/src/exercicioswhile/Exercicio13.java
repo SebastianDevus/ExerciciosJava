@@ -4,10 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio13 {
-
-	/**
-	 * @param args
-	 */
+	// Faça  um  programa  que  leia  número  reais  maiores  que  zero.  Quando  for  entrado  o 
+	// número  zero,  o  programa  deverá  apresentar  quantos  números  foram  entrados  e  a 
+	// média destes.
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

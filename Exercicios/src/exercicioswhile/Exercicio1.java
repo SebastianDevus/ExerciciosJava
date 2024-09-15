@@ -4,10 +4,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio1 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso 
+	// o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+	
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

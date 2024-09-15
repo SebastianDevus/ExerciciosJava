@@ -4,6 +4,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio4 {
+    // 4. Preenchimento de Mapa 
+    // Descrição: Crie  uma  matriz 3x3 para representar um mapa de  uma  pequena  área com diferentes tipos  de terreno (1: 
+    // água, 2: floresta, 3: montanha). Preencha a matriz com valores fornecidos pelo usuário e, em seguida, conte quantos de 
+    // cada tipo de terreno existem no mapa.
+
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução
         try (Scanner sc = new Scanner(System.in)) {

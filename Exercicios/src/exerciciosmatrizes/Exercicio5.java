@@ -4,6 +4,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio5 {
+    // 5. Controle de Inventário 
+    // Descrição: Você gerencia um inventário de 3 tipos de produtos em 4 armazéns diferentes. Crie uma matriz 3x4 para 
+    // armazenar a quantidade de cada produto em cada armazém. Preencha a matriz com valores fornecidos pelo usuário e 
+    // calcule o total de cada tipo de produto em todos os armazéns.
+
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução
         try (Scanner sc = new Scanner(System.in)) {

@@ -4,10 +4,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio12 {
-
-	/**
-	 * @param args
-	 */
+	// Faça um programa que implemente um menu onde o usurário deverá selecionar 1 ou 
+	// 0.  Caso  seja  entrado  um  número  diferente,  o  programa  deverá  solicitar  uma  nova 
+	// opção.
+	 
 	public static void main(String[] args) {
 		// Inicia scanner como recurso
 		// Quando o programa acaba, o recurso é fechado

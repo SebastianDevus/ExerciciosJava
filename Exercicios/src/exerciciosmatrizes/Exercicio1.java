@@ -4,6 +4,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio1 {
+    // 1. Tabela de Desempenho de Vendas 
+    // Descrição: Você é um analista de vendas e precisa criar uma matriz 4x4 para registrar as vendas de 4 produtos ao longo 
+    // de 4 semanas. Preencha a matriz com valores fornecidos pelo usuário e, em seguida, calcule a soma das vendas de cada 
+    // produto e de cada semana. Imprima os resultados. 
+
     public static void main(String[] args) {
         
         // Scanner como recurso, para que seja fechado no fim da execução

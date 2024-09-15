@@ -5,6 +5,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio3 {
+    // 3. Controle de Temperaturas 
+    // Descrição:  Você  está  monitorando  as  temperaturas  diárias  de  uma  semana  (7  dias).  Crie  um  vetor  de  7  floats  para 
+    // armazenar as temperaturas e, em seguida, encontre e imprima a temperatura mais alta e a mais baixa da semana.
 
     public static void main(String[] args) {
         // Scanner como recurso, para que seja fechado no fim da execução
